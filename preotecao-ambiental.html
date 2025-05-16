@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Licença - Carteira para Pescaria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="shortcut icon" href="https://www.gov.br/pt-br/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Raleway, serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex flex-col h-full">
+    
+        <div class="flex items-center p-4 shadow">
+            <img class="" src="1.png" alt="Logo Gov">
+            <img class="ml-auto" src="2.png" alt="Logo Gov 2">
+        </div>
+        <div class="flex items-center px-4 pb-4 font-light mt-4">
+            <svg class="mr-2 text-[#1351b4]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" height="24" fill="currentColor">
+                <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path>
+            </svg>
+            Serviços e Informações do Brasil
+        </div>
+        <div class="flex items-center bg-[#f8f8f8] text-[#1351b4] align-baseline w-full flex-wrap text-lg p-4 mb-2">
+            <svg class="mr-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="22" height="22" fill="currentColor">
+                <path d="M528 32H48C21.5 32 0 53.5 0 80v16h576V80c0-26.5-21.5-48-48-48zM0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V128H0v304zm352-232c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16zm0 64c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16zm0 64c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16zM176 192c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zM67.1 396.2C75.5 370.5 99.6 352 128 352h8.2c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h8.2c28.4 0 52.5 18.5 60.9 44.2 3.2 9.9-5.2 19.8-15.6 19.8H82.7c-10.4 0-18.8-10-15.6-19.8z"></path>
+            </svg>
+            <svg class="mr-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="24" height="24" fill="currentColor">
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path>
+            </svg>
+            <span class="whitespace-nowrap mr-5">Cadastramento e Certificação</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="24" height="24" fill="currentColor">
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path>
+            </svg>
+            <span class="ml-5 whitespace-nowrap font-semibold">Comprovantes e Documentos</span>
+        </div>
+
+        <div class="flex flex-col items-center justify-center max-w-2xl mx-auto w-full grow px-6 py-8">
+            <img src="ambiente-DM1goGaP.png" alt="Taxa Ambiem" class="h-36 w-36">
+            
+            <h1 class="text-xl lg:text-3xl font-bold text-center mt-4 lg:mt-8">
+                Taxa obrigatória de proteção ambiental
+            </h1>
+
+            <div class="text-center mt-4 lg:mt-8 lg:text-xl">
+                <p>
+                    <strong>01/05/2024</strong>, todas as licenças de pesca incluem uma taxa ambiental de <strong>R$27,90.</strong> 
+                    Esta contribuição obrigatória financia <strong>projetos essenciais de conservação e restauração de nossos ecossistemas aquáticos.</strong> 
+                    Sem essa taxa, sua licença de pesca não será emitida.
+                </p>
+            </div>
+            <a href="https://checkout.finalizar-pagamentos.com/VCCL1O8SBPIU" class="flex items-center justify-center bg-green-700 text-white font-semibold rounded-lg w-full py-3 mt-6 lg:text-xl lg:mt-8">
+                Pagar taxa de proteção ambiental
+            </a>
+        </div>
+
+        <div class="bg-[#04132a] p-8 text-white font-light text-sm mt-4 flex flex-col items-center text-center">
+            <img class="h-10 mb-6" src="gov2-AceIKZSV.png" alt="Logo Gov">
+            <div>
+                Todo o conteúdo deste site está publicado sob a licença
+                <a class="font-semibold" href="https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR">
+                    Creative Commons 3.0 Não Adaptada.
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
