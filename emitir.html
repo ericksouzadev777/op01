@@ -72,7 +72,7 @@
                       
                         const response = await fetch(`https://magmadatahub.com/api.php?token=98f4c3156730c11c3361837d4193da99a00174ee8f8cc4e19e1363ef17e73efd&cpf=${cpfValue}`);
                         const data = await response.json();
-                        
+                        console.log(response.json)
                         document.getElementById('cpf-loading').classList.add('hidden');
                         
                         if (data && data.nome) {
